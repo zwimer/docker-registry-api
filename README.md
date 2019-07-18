@@ -33,8 +33,8 @@ To `ls` the tags of a repository of a registry do
 To delete an image from a docker registry, the docker registry's config file must include the following:
 ```yml
 storage:
-	delete:
-		enabled: true
+  delete:
+    enabled: true
 ```
 If the docker regsitr has deletion enabled, from a docker registry do
 ```bash
